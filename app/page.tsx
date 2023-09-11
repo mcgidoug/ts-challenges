@@ -1,9 +1,9 @@
-import SqFunc from "./components/sq_func"
+import { EvenOrOdd } from "./components/even_odd";
 
 export default function Home() {
   return (
     <div>
-      <SqFunc/>
+      <EvenOrOdd n={6} />
     </div>
-  )
+  );
 }
